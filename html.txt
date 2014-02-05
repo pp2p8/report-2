@@ -1,0 +1,28 @@
+<script 
+src="https://maps.googleapis.com/maps/api/js?v
+=3.exp&sensor=true"></script>
+<div data-role="page" id="page1">
+        <div data-role="header">
+        <a data-rel="back" data-icon="home">Home</a>
+       
+        </div>
+    <div data-role="content">
+        <p>Directions</p>
+<button id="button">Show Direction</button>
+<div id="map_canvas" style="height: 400px; width: 400px"></div>
+        
+        
+        
+         </div>
+    </div>
+    
+    <div data-role="page" id="GetDirectionPage">
+        <div data-role="header">
+        <a data-rel="back" data-icon="home">Home</a>
+        <h1>Direction</h1>
+        </div>
+    <div data-role="content" id="directionModule">
+        <p id="currentCondition"></p>
+        <div id="currentIcon"></div>
+    </div>
+</div>
